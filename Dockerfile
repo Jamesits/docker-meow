@@ -10,5 +10,6 @@ RUN curl -L git.io/meowproxy | bash
 
 EXPOSE 4411
 COPY docker-entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["meow", "-color"]
