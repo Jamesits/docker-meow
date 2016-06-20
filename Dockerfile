@@ -10,4 +10,6 @@ proxy = $PROXY\n \
 " > ~/.meow/rc
 
 EXPOSE 4411
-CMD /usr/local/bin/meow
+COPY docker-entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["meow"]
