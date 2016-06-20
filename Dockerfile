@@ -2,7 +2,7 @@ FROM ubuntu:latest
 MAINTAINER James Swineson <jamesswineson@gmail.com>
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y curl \
-	&& rm -rf /var/lib/apt/lists/* \
+	&& rm -rf /var/lib/apt/lists/*
 
 ENV MEOW_INSTALLDIR=/usr/local/bin
 WORKDIR /usr/local/bin
