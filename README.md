@@ -6,4 +6,4 @@ Set ENV `PROXY=protocol://username@password:example.name:port` and you are ready
 
 For detailed settings, set ENV `CONFIG_URL` to a valid meow_rc file URL.
 
-See [https://github.com/renzhn/MEOW#配置]() for details.
+See [https://github.com/renzhn/MEOW#配置](https://github.com/renzhn/MEOW#配置) for details.
